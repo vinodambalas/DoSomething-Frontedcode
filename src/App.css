@@ -1,0 +1,28 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f2f5;
+  height: 100vh;
+  margin: 0;
+}
+
+.app-title {
+  font-size: 36px;
+  color: #1877f2;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    width: 100%;
+  }
+}
